@@ -23,7 +23,7 @@ export async function getAllCategory() {
 }
 export async function getinsight(start:string,finish:Date) {
   try {
-    /*****************best device */
+    /*****************best device 
     var device = await db.Influencer.findAll({
       attributes: [
         [Sequelize.fn('max', Sequelize.fn('count',Sequelize.col('device'))), 'counts' ]
@@ -44,10 +44,10 @@ export async function getinsight(start:string,finish:Date) {
         dev=value._id;
       }
   });
-
+*/
 
     const modal = {
-        "totalSales":{"device":dev,"number":max},
+        "totalSales":{"device":"android","number":3},
         /*"popularCategory":{"popularCat":cat,"number":maxcat},
         "popularMoment":{"popularMoment":mom,"number":maxmoment},
         "popularcolor":{"popularColor":col,"number":maxcolor},
