@@ -3,7 +3,7 @@ this project is made with node js 14
 
 this is a rushed job to meet the time required and not a final product
 
-you need a mongoDB instance to run this project 
+you need a postgress instance to run this project 
 
 the db configuration is inside config/default
 
