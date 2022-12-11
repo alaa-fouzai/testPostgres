@@ -190,7 +190,7 @@ function routes(app: Express) {
   app.post("/api/performance",getPerformanceHandler);
        /**
    * @openapi
-   * '/api/getcategory':
+   * '/api/insight':
    *  post:
    *     tags:
    *     - Insight
